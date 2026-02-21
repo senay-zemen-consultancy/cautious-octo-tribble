@@ -1,0 +1,96 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .search-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .search-container input {
+        padding: 8px;
+        font-size: 16px;
+        width: 200px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+        outline: none;
+    }
+
+    .search-container button {
+        padding: 8px 16px;
+        font-size: 16px;
+        border: none;
+        background: #4CAF50;
+        color: white;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+    }
+
+    .highlight {
+        background-color: yellow;
+        padding: 4px;
+    }
+    .border{
+        border-color: white;
+        border-style: solid;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 335px;
+  margin-left: -15px;
+    }
+
+.border .A{
+    margin-left: 7px;
+    box-shadow: 0px 0px 20px green;
+    margin-top: 10px;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    float: left;
+    margin-top: 35px;
+}
+.border .D{
+    margin-left: 7px;
+    box-shadow: 0px 0px 20px red;
+    margin-top: 10px;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    float: left;
+    margin-top: 35px;
+}
+.border p{
+    margin-top: 17px;
+    margin-left: 165px;
+    font-size: 13px;
+}
+#A{
+    box-shadow: 0 0 10px green;
+    margin-left: 255px;
+    margin-top: -28.5px;
+    float: left;
+    color: green;
+    background-color: lawngreen;
+}
+#N{
+    box-shadow: 0 0 10px mediumvioletred;
+    margin-left: 255px;
+    margin-top: -28px;
+    float: left;
+    background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
